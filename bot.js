@@ -50,4 +50,4 @@ ex ? ${prefixac}avatar @rebel
 **`);
 message.channel.sendEmbed(embed).then(m => m.delete(17000));}
 });
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
